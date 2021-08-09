@@ -1,4 +1,4 @@
-# Daisyxmusic (Telegram bot project )
+# MusicRider (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -19,10 +19,10 @@ from pyrogram import Client
 from pyrogram import filters
 from pyrogram.errors import UserAlreadyParticipant
 import asyncio
-from DaisyXMusic.helpers.decorators import authorized_users_only
-from DaisyXMusic.helpers.decorators import errors
-from DaisyXMusic.services.callsmusic import client as USER
-from DaisyXMusic.config import SUDO_USERS
+from MusicRider.helpers.decorators import authorized_users_only
+from MusicRider.helpers.decorators import errors
+from MusicRider.services.callsmusic import client as USER
+from MusicRider.config import SUDO_USERS
 
 @Client.on_message(filters.command(["userbotjoin"]) & ~filters.private & ~filters.bot)
 @authorized_users_only
@@ -40,7 +40,7 @@ async def addchannel(client, message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DaisyMusic"
+        user.first_name = "MusicRider"
 
     try:
         await USER.join_chat(invitelink)
@@ -53,7 +53,7 @@ async def addchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your group due to heavy join requests for userbot! Make sure user is not banned in group."
-            "\n\nOr manually add @DaisyXhelper to your Group and try again</b>",
+            "\n\nOr manually add @Music_Rider to your Group and try again</b>",
         )
         return
     await message.reply_text(
@@ -128,7 +128,7 @@ async def addcchannel(client, message):
         print(e)
         await message.reply_text(
             f"<b>🛑 Flood Wait Error 🛑 \n User {user.first_name} couldn't join your channel due to heavy join requests for userbot! Make sure user is not banned in channel."
-            "\n\nOr manually add @DaisyXhelper to your Group and try again</b>",
+            "\n\nOr manually add @Music_Rider to your Group and try again</b>",
         )
         return
     await message.reply_text(
