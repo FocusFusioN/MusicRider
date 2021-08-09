@@ -27,7 +27,7 @@
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/The-LimitedEditioN/MusicBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/The-LimitedEditioN/MusicRider)
 
 Get pyrogram (p)  `SESSION` from here:
 
@@ -36,13 +36,13 @@ Get pyrogram (p)  `SESSION` from here:
 ### ⚔ Self-hosting (For Devs) 
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/TeamDaisyX/DaisyXmusic
-$ cd DaisyXMusic
+$ git clone https://github.com/The-LimitedEditioN/MusicRider
+$ cd MusicRider
 # Upgrade sources
 # Install All Requirements 
 $ pip3 install -r requirements.txt
 # Fork This Repo and fill local.env and config.py both with your own values.Then Start The Bot
-$ python3 -m DaisyXMusic
+$ python3 -m MusicRider
 ```
 
 ### Commands for Group 🛠
@@ -92,7 +92,7 @@ For linked group admins only:
 If you donlt like to play in linked channel:
  1. Get your channel ID.
  2. Rename your group to: Channel Music: your_channel_id
- 3. Add @DaisyXBot as Channel admin with full perms
+ 3. Add @MusicRider_Bot as Channel admin with full perms
  4. add helper to channel
  5. Simply send commands in your group.
 
@@ -116,15 +116,6 @@ This bot is based on the original work done by [Rojserbest](http://github.com/ro
 DaisyXmusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @DaisyXbot users
 
 #### Contribtors
-- [InukaASiTH](https://github.com/InukaAsith): Dev
-- [Technical-Hunter](https://github.com/Technical-Hunter): Dev
-- [Rojserbest](http://github.com/rojserbest): Dev
-- [Wrench](https://github.com/EverythingSuckz/): Dev
-- [Bemro](https://github.com/bemroofficial): Dev
-- [QueenArzoo](https://github.com/QueenArzoo): Dev
-- [lucifeermorningstar](https://github.com/lucifeermorningstar): Dev
-- [Hamker Cat](https://github.com/thehamkercat/)
-- [Anjana-Ma](https://github.com/Anjana-Ma): 
-- [ImJanindu](https://github.com/ImJanindu): 
+- [Limited EditioN](https://github.com/The-LimitedEditioN): Dev 
 - [MARSHALX](https://github.com/MarshalX): TgCalls
 - [Original Repo owners](https://github.com/CallsMusic/CallsMusic)
