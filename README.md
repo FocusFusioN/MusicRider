@@ -1,4 +1,4 @@
-<h1 align="centre">MusicBot 🎵</h1>
+<h1 align="centre">A Simple MusicBot 🎵</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 #### POWERED BY [MARSHALX TGCALLS](https://github.com/MarshalX/tgcalls)
@@ -10,6 +10,7 @@
 
 <h2> Features 🔥 </h2>
 
+- Best Feature of this Music Bot. Its No Lag.🚀
 - Thumbnail Support
 - Playlist Support
 - Current playback support
