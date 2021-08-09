@@ -1,4 +1,4 @@
-# Daisyxmusic (Telegram bot project )
+# MusicRider (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@ from pyrogram import Client
 from pyrogram import filters
 from pyrogram.errors import UserAlreadyParticipant
 import asyncio
-from DaisyXMusic.config import SUDO_USERS
+from MusicRider.config import SUDO_USERS
 
 @Client.on_message(filters.command(["gcast"]))
 async def bye(client, message):
