@@ -20,15 +20,15 @@ from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import Message
 
-from DaisyXMusic.config import que
-from DaisyXMusic.function.admins import set
-from DaisyXMusic.helpers.channelmusic import get_chat_id
-from DaisyXMusic.helpers.decorators import authorized_users_only
-from DaisyXMusic.helpers.decorators import errors
-from DaisyXMusic.helpers.filters import command 
-from DaisyXMusic.helpers.filters import other_filters
-from DaisyXMusic.services.callsmusic import callsmusic
-from DaisyXMusic.services.queues import queues
+from MusicRider.config import que
+from MusicRider.function.admins import set
+from MusicRider.helpers.channelmusic import get_chat_id
+from MusicRider.helpers.decorators import authorized_users_only
+from MusicRider.helpers.decorators import errors
+from MusicRider.helpers.filters import command 
+from MusicRider.helpers.filters import other_filters
+from MusicRider.services.callsmusic import callsmusic
+from MusicRider.services.queues import queues
 
 
 @Client.on_message(filters.command(["channelpause","cpause"]) & filters.group & ~filters.edited)
