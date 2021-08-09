@@ -1,4 +1,4 @@
-# Daisyxmusic (Telegram bot project)
+# MusicRider (Telegram bot project)
 # Copyright (C) 2021  Inukaasith
 # Copyright (C) 2021  TheHamkerCat (Python_ARQ)
 # This program is free software: you can redistribute it and/or modify
@@ -34,31 +34,31 @@ from pyrogram.types import Voice
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
 from youtube_search import YoutubeSearch
-from DaisyXMusic.modules.play import generate_cover
-from DaisyXMusic.modules.play import arq
-from DaisyXMusic.modules.play import cb_admin_check
-from DaisyXMusic.modules.play import transcode
-from DaisyXMusic.modules.play import convert_seconds
-from DaisyXMusic.modules.play import time_to_seconds
-from DaisyXMusic.modules.play import changeImageSize
-from DaisyXMusic.config import BOT_NAME as bn
-from DaisyXMusic.config import DURATION_LIMIT
-from DaisyXMusic.config import UPDATES_CHANNEL as updateschannel
-from DaisyXMusic.config import que
-from DaisyXMusic.function.admins import admins as a
-from DaisyXMusic.helpers.errors import DurationLimitError
-from DaisyXMusic.helpers.decorators import errors
-from DaisyXMusic.helpers.admins import get_administrators
-from DaisyXMusic.helpers.channelmusic import get_chat_id
-from DaisyXMusic.helpers.decorators import authorized_users_only
-from DaisyXMusic.helpers.filters import command
-from DaisyXMusic.helpers.filters import other_filters
-from DaisyXMusic.helpers.gets import get_file_name
-from DaisyXMusic.services.callsmusic import callsmusic
-from DaisyXMusic.services.callsmusic import client as USER
-from DaisyXMusic.services.converter.converter import convert
-from DaisyXMusic.services.downloaders import youtube
-from DaisyXMusic.services.queues import queues
+from MusicRider.modules.play import generate_cover
+from MusicRider.modules.play import arq
+from MusicRider.modules.play import cb_admin_check
+from MusicRider.modules.play import transcode
+from MusicRider.modules.play import convert_seconds
+from MusicRider.modules.play import time_to_seconds
+from MusicRider.modules.play import changeImageSize
+from MusicRider.config import BOT_NAME as bn
+from MusicRider.config import DURATION_LIMIT
+from MusicRider.config import UPDATES_CHANNEL as updateschannel
+from MusicRider.config import que
+from MusicRider.function.admins import admins as a
+from MusicRider.helpers.errors import DurationLimitError
+from MusicRider.helpers.decorators import errors
+from MusicRider.helpers.admins import get_administrators
+from MusicRider.helpers.channelmusic import get_chat_id
+from MusicRider.helpers.decorators import authorized_users_only
+from MusicRider.helpers.filters import command
+from MusicRider.helpers.filters import other_filters
+from MusicRider.helpers.gets import get_file_name
+from MusicRider.services.callsmusic import callsmusic
+from MusicRider.services.callsmusic import client as USER
+from MusicRider.services.converter.converter import convert
+from MusicRider.services.downloaders import youtube
+from MusicRider.services.queues import queues
 
 chat_id = None
 
@@ -677,7 +677,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your channel due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @DaisyXmusic to your Group and try again</b>",
+                        "\n\nOr manually add @MusicRider_Bot to your Group and try again</b>",
                     )
     try:
         await USER.get_chat(chid)
