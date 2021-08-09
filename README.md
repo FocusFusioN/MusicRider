@@ -5,7 +5,7 @@
 ### Available on telegram as [@MusicRider_Bot](https://t.me/MusicRider_Bot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
+  <img src="https://telegra.ph/file/22df4ce0863bd4fb1648f.jpg">
 </p>
 
 <h2> Features 🔥 </h2>
