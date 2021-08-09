@@ -1,4 +1,4 @@
-# Daisyxmusic (Telegram bot project )
+# MusicRider (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -16,11 +16,11 @@
 
 from pyrogram import Client
 import asyncio
-from DaisyXMusic.config import SUDO_USERS
-from DaisyXMusic.config import PMPERMIT
+from MusicRider.config import SUDO_USERS
+from MusicRider.config import PMPERMIT
 from pyrogram import filters
 from pyrogram.types import Message
-from DaisyXMusic.services.callsmusic import client as USER
+from MusicRider.services.callsmusic import client as USER
 
 PMSET =True
 pchats = []
