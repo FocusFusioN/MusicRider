@@ -1,4 +1,4 @@
-# Daisyxmusic (Telegram bot project )
+# MusicRider (Telegram bot project )
 # Copyright (C) 2021  Inukaasith
 
 # This program is free software: you can redistribute it and/or modify
@@ -15,18 +15,18 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 import logging
-from DaisyXMusic.modules.msg import Messages as tr
+from MusicRider.modules.msg import Messages as tr
 from pyrogram import Client
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 from pyrogram.types import InlineKeyboardButton
 from pyrogram.types import Message
-from DaisyXMusic.config import SOURCE_CODE
-from DaisyXMusic.config import ASSISTANT_NAME
-from DaisyXMusic.config import PROJECT_NAME
-from DaisyXMusic.config import SUPPORT_GROUP
-from DaisyXMusic.config import UPDATES_CHANNEL
-from DaisyXMusic.config import BOT_USERNAME
+from MusicRider.config import SOURCE_CODE
+from MusicRider.config import ASSISTANT_NAME
+from MusicRider.config import PROJECT_NAME
+from MusicRider.config import SUPPORT_GROUP
+from MusicRider.config import UPDATES_CHANNEL
+from MusicRider.config import BOT_USERNAME
 logging.basicConfig(level=logging.INFO)
 
 @Client.on_message(filters.private & filters.incoming & filters.command(['start']))
