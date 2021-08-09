@@ -112,8 +112,8 @@ Don't edit this part
 #### Special Credits
 - [Rojserbest](http://github.com/rojserbes): Callsmusic Developer
 
-This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork daisyxmusic won't exist. 
-DaisyXmusic is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @DaisyXbot users
+This bot is based on the original work done by [Rojserbest](http://github.com/rojserbest). Without his hardwork MusicRider won't exist. 
+MusicRider is a modified version of [Callsmusic](https://github.com/callsmusic/callsmusic) for fit the needs of @MusicRider_bot users
 
 #### Contribtors
 - [Limited EditioN](https://github.com/The-LimitedEditioN): Dev 
