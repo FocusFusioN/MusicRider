@@ -1,4 +1,4 @@
-<h1 align="centre">A Simple MusicBot 🎵</h1>
+<h1 align="centre">MusicRider 🎵</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 #### POWERED BY [MARSHALX TGCALLS](https://github.com/MarshalX/tgcalls)
@@ -27,7 +27,7 @@
 
 ### 💜 Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamDaisyX/DaisyXMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/The-LimitedEditioN/MusicBot)
 
 Get pyrogram (p)  `SESSION` from here:
 
