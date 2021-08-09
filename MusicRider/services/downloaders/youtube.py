@@ -20,8 +20,8 @@ from os import path
 
 from youtube_dl import YoutubeDL
 
-from DaisyXMusic.config import DURATION_LIMIT
-from DaisyXMusic.helpers.errors import DurationLimitError
+from MusicRider.config import DURATION_LIMIT
+from MusicRider.helpers.errors import DurationLimitError
 
 ydl_opts = {
     "format": "bestaudio/best",
